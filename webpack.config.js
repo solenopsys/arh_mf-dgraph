@@ -47,7 +47,7 @@ module.exports = {
       name: 'dgraph',
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': 'packages/modules/dgraph/src/app/remote-entry/entry.module.ts',
+        './Module': 'packages/modules/mf-dgraph/src/app/remote-entry/entry.module.ts',
       },
       shared: share({
         '@angular/core': {

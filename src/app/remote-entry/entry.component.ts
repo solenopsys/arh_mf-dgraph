@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'hyperconverged-dgraph-entry',
+  selector: 'sc-dgraph-entry',
   template: `<div class="remote-entry">
     <h2>dgraph's Remote Entry Component</h2>
   </div>`,
